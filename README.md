@@ -19,8 +19,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly  , in addition to restricting access to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be available even through DDoS attacks, in addition to restricting access to the network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 
@@ -65,7 +64,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![alt text](https://github.com/babbyjaso/ELK_Stack_urban_broccoli/blob/main/Diagrams/ELK_Stack_urban_broccoli/Images/elk%20playbook%20success.png "Successful Installation") 
+![alt text](https://github.com/babbyjaso/ELK_Stack_urban_broccoli/blob/main/Images/elk_playbook_success.png "Successful Installation") 
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
